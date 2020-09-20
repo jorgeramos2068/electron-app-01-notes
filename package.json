@@ -1,0 +1,18 @@
+{
+  "name": "02-notes",
+  "version": "1.0.0",
+  "description": "Notes app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  },
+  "dependencies": {
+    "simplemde": "^1.11.2"
+  }
+}

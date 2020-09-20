@@ -1,0 +1,23 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 97vh;
+  width: auto;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.CodeMirror {
+  flex: 1;
+}
