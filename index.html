@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="./node_modules/simplemde/dist/simplemde.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./node_modules/simplemde/dist/simplemde.min.js"></script>
+</head>
+<body>
+  <main>
+    <div class="header">
+      <h1>Notes App</h1>
+    </div>
+    <div class="main-container">
+      <textarea name="editor" id="editor"></textarea>
+      <script>
+        const simplemde = new SimpleMDE({ element: document.getElementById('editor') });
+      </script>
+    </div>
+  </main>
+</body>
+</html>
