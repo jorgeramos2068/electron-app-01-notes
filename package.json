@@ -4,13 +4,16 @@
   "description": "Notes app",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "DEBUG=true electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:macos": "electron-builder --macos --dir",
+    "prod:macos": "electron-builder --macos"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^10.1.2"
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1"
   },
   "dependencies": {
     "simplemde": "^1.11.2"
