@@ -104,6 +104,12 @@ ipcMain.on('file-save', (event, arg) => {
   saveFile(win, arg);
 });
 
+// Open file
+ipcMain.on('file-open', (event, arg) => {
+  const win = BrowserWindow.getFocusedWindow();
+  openFile(win);
+});
+
 const menu = Menu.buildFromTemplate(template);
 
 app.on('ready', () => {

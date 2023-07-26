@@ -5,10 +5,14 @@ body {
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   height: 97vh;
   width: auto;
+}
+
+.header {
+  width: 100%;
 }
 
 .main-container {
@@ -16,6 +20,7 @@ main {
   flex: 1;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .CodeMirror {
